@@ -39,5 +39,6 @@ C:\'Program Files'\Git\bin\git clone $project $group\blog
 Copy-Item $group\blog\.env.example -Destination $group\blog\.env
 Push-Location $group\blog\
 C:\tools\php82\php C:\ProgramData\ComposerSetup\bin\composer.phar install
-C:\tools\php82\php artisan migrate --seed
+C:\tools\php82\php artisan migrate --seed --force -n
+C:\'Program Files'\nodejs\npm install
 Pop-Location
