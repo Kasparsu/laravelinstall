@@ -1,7 +1,7 @@
 $name = Read-Host -Prompt 'Input your git name'
 $email = Read-Host -Prompt 'Input the git email'
-group = Read-Host -Prompt 'Input the group name in lowercase example: kms21'
-project = Read-Host -Prompt 'Input the laravel project git url'
+$group = Read-Host -Prompt 'Input the group name in lowercase example: kms21'
+$project = Read-Host -Prompt 'Input the laravel project git url'
 winget install Microsoft.VisualStudioCode 
 winget install JetBrains.PHPStorm 
 winget install JetBrains.DataGrip
